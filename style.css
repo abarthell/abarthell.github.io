@@ -100,7 +100,7 @@ p{
 		transition: all .4s ease-in-out;
 		-webkit-transition: all .4s ease-in-out;
 		font-size: 0.6cm;
-		font-weight: 200;
+		font-weight: 100;
 	}
 	p{
 		font-weight:bold;
