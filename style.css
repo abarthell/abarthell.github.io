@@ -51,7 +51,7 @@ h5{
 	position:absolute;
 	z-index: 98;
 	text-align: center;
-	font-weight: 200;
+	font-weight: 100;
 	letter-spacing: 8px;
 	font-size: 30px;
 }
@@ -100,7 +100,7 @@ p{
 		transition: all .4s ease-in-out;
 		-webkit-transition: all .4s ease-in-out;
 		font-size: 0.6cm;
-		font-weight: bold;
+		font-weight: normal;
 	}
 	p{
 		font-weight:bold;
