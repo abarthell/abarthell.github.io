@@ -93,21 +93,21 @@ p{
 		overflow: hidden;
 		transition: all .4s ease-in-out;
 		-webkit-transition: all .4s ease-in-out;
+		font-weight: bold;
 	}
 	h5{
 		text-decoration: none;
 		transition: all .4s ease-in-out;
 		-webkit-transition: all .4s ease-in-out;
 		font-size: 0.6cm;
+		font-weight: bold;
+	}
+	p{
+		font-weight:bold;
 	}
 	.social-icons{
 		white-space: nowrap;
 		overflow: hidden;
-	}
-	.quote{
-		text-decoration: none;
-		transition: all .4s ease-in-out;
-		-webkit-transition: all .4s ease-in-out;
 	}
   }
  }
