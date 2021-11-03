@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 90%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  display:flex;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media(max-width: 800px){
+  .card {
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+.card-text{
+  padding-left: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}

@@ -1,171 +1,84 @@
-<!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+
 <html>
-	<head>
-		<title>Anthony Barthell</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="landing is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Anthony's Book Blog">
+  <meta name="author" content="Anthony Barthell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Anthony Barthell</a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">About Me</a></li>
-											<li><a href="generic.html">Experience</a></li>
-											<li><a href="elements.html">Projects</a></li>
-									<!--		<li><a href="#">todo</a></li>
-											<li><a href="#">todo</a></li> -->
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
+<body>
+	<div class="header">
+	  <h2>Anthony's Book Blog</h2>
+	</div>
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>Anthony Barthell</h2>
-							<p>UW-Madison Class of 2020<br />
-							Computer Systems and Machine Learning Enthusiast</p>
-						</div>
-						<a href="#one" class="more scrolly">Learn More</a>
-					</section>
+	<div class="row">
 
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>About Me</h2>
-								<p>I'm currently a Junior majoring in CS at the University of
-Wisconsin-Madison. Previously, I conducted Biomedical Data Science research via the Undergraduate Research Scholars (URS) program here at UW-Madison. In the Summer of 2018, I conducted Machine Learning research at Stanford University under Professor Daniel Rubin in the <a href = "https://rubinlab.stanford.edu/" target = "_blank">RubinLab</a>. Currently, I am developing DenseFS: a cache-optimized filesystem under Professor Remzi Arpaci-Dusseau. I am also interning at Plantronics during the Summer of 2019 in Santa Cruz, CA on the ML Team. Feel free to reach out!</p>
-							</header>
-							<ul class="icons major">
-								<li><a  href = "https://www.linkedin.com/in/barthell" target = "_blank"><span class="icon fa-linkedin major style4"><span class="label">LinkedIn</span></span></a></li>
-								<li><a href = "https://github.com/abarthell" target = "_blank"><span class="icon fa-github major style4"><span class="label">Github</span></span></a></li>
-								<li> <a href = "abarthell_resume.pdf" target = "_blank"><span class="icon fa-file-text major style4"><span class="label">Resume</span></span></a></li>
-                <li> <a href = "mailto::abarthell@wisc.edu" target = "_blank"><span class="icon fa-envelope major style4"><span class="label">Email</span></span></a></li>
-							</ul>
-						</div>
-					</section>
+	  <div class="rightcolumn">
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>Experienced Programmer</h2>
-								<p>Programming for 5 years. Done research or directly worked with C, C++, Java, Python, SQL, HTML, and CSS.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>Extensive Research Experience</h2>
-								<p>Previous experience conducting ML Researcher
-at UW-Madison, Biomedical Data Science Researcher at Stanford, and currently a
-Systems researcher at UW-Madison building a cache-compact filesystem.</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>Teaching Experience</h2>
-								<p>Teacher's Assistant for Computer Systems
-under Professor James Skrentny for Spring 2019. Incoming TA for Operating
-Systems under Professor Andrea Arpaci-Dusseau for Fall 2019.</p>
-							</div>
-						</section>
-					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Projects</h2>
-								<p>Some of the things I've done throughout the years..</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>NLP Classification for HCC Diagnosis</h3>
-									<p>Improved recall from 46% to 80% and achieved over 96% accuracy with a novel NLP model to extract and classify tumors from MRI Impressions.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>MLFQ Scheduler for xv6</h3>
-									<p>Implemented a fully-functional MLFQ scheduler in xv6 with four priority queues. The scheduling method in each of the queues is round-robin, except for the bottom queue which uses FIFO.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Unix Shell</h3>
-									<p> Created a fully-operational, robust Unix shell from scratch in C. Uses various syscalls such as forking, execv, dup, and dup2. Enables users to input customizes paths and supports both piping and redirection.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>MapReduce Architecture</h3>
-									<p> Implemented the backend to enable parallel computation from users.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Twitter Sentiment Analysis</h3>
-									<p>Achieved state-of-the-art accuracy by using a Rule-based approach to identify the sentiment of individual Tweets.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Filesystem Checker</h3>
-									<p>Wrote a filesystem checker for xv6 from scatch.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+	  	<div class="card">
+	  		<div>
+	      	<img src="./climate.png" height="400px;">
+				</div>
+	  		<div class="card-text">
+		      <h2>How to Avoid a Climate Disaster</h2>
+		      <h5>by Bill Gates. 414 pgs. Reading 11/3 - Present</h5>
+		      <p>Rating: TBD</p>
+		      <p>Review: Got the free e-book 😄</p>
+		      <p></p>
+	    	</div>
+	    </div>
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
-						<div class="inner">
-							<header>
-								<h2>Contact Info</h2>
-								<p>Feel free to reach out!</p>
-							</header>
-							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Email</a></li>
-								<li><a href="#" class="button fit">Linkedin</a></li>
-							</ul>
-						</div>
-					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Anthony Barthell</li><li>Let's
-collaborate</li>
-						</ul>
-					</footer>
+	  	<div class="card">
+	  		<div>
+	      	<img src="./sapiens.png" height="400px;">
+				</div>
+	  		<div class="card-text">
+		      <h2>Sapiens: A Brief History of Humankind</h2>
+		      <h5>by Yuval Noah Narari. 414 pgs. Reading 11/3 - Present</h5>
+		      <p>Rating: TBD</p>
+		      <p>Review: TBD</p>
+		      <p></p>
+	    	</div>
+	    </div>
 
-			</div>
+	    <div class="card">
+	  		<div>
+	      	<img src="./obama.png" height="400px;">
+				</div>
+				<div class="card-text">
+	      	<h2>A Promised Land</h2>
+	      	<h5>by Barack Obama. 701 pgs. Read 10/14 - 11/02</h5>
+		      <p><b>Rating:</b> 4.72 / 5.00</p>
+		      <p><b>Review:</b> <br>I chose this book to get an inside look on former President Obama's life in office. This book is very long (701 pages), but a great read, full of detail and insights. What I found most inspiring is how scrupulous, conscientious, and humble Obama truly is. Solving worldwide crises alongside a heavily partisan nation and scrutinous media while maintaining harmony between your friends, family, and mental state is no easy feat. Will be looking forward to the sequel.</p>
+		      <p><b>Favorite Quote:</b><br> <i>"With a sound process — one in which I was able to empty out my ego and really listen, following facts and logic as best I could ... I realized I could make tough decisions and still sleep easy at night"</i> (p. 294)</p>
+	    	</div>
+	    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	    <div class="card">
+	  		<div >
+	      	<img src="./1984.png" height="400px;">
+				</div>
 
-	</body>
+				<div class="card-text">
+	        <h2>1984</h2>
+	       	<h5>by George Orwell. 328 pgs. Read 10/02 - 10/12</h5>
+		      <p><b>Rating:</b> 4.45 / 5.00</p>
+		      <p><b>Review:</b><br>Illustrates the horrors of life in a totalitarian dystopia, which is sadly not unlike some modern-day authoritarian countries. Truly makes you feel grateful to live in a country that allows freedom of thought and speech. At times, the book felt monotonous in its dreary mood. Nevertheless, it was definitely an insightful read.</p>
+		      <p><b>Favorite Quote:</b><br><i>"But there was still that memory moving round the edges of his consciousness, something strongly felt but not reducible to definite shape, like an object seen out of the corner of one's eye"</i> (p. 128)</p>
+	    	</div>
+	    </div>
+
+	  </div>
+	</div>
+
+	<div class="footer">
+	  <p>Drop a comment for book suggestions</p>
+	</div>
+</body>
 </html>
