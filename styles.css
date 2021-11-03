@@ -12,12 +12,18 @@ body {
   background: white;
 }
 
+@media(max-width: 800px){
+  .header {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
+  }
+}
 
 /* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 90%;
-  padding: 20px;
+.image {
+  text-align: center;
 }
 
 /* Add a card effect for articles */
